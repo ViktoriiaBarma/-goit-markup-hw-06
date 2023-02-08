@@ -339,7 +339,7 @@ a{
 
 }
 
-.form-field label{
+.form-label{
     margin-bottom: 4px;
     color: #8E8F99;
     font-size: 12px;
@@ -372,22 +372,34 @@ a{
     margin-bottom: 24px;
 }
 
-.form-icon{
-    
+.form-checkbox-input{
+    margin-right: 8px;
+}
+
+.form-checkbox-label{
+    color: #757575;
+}
+
+.form-checkbox-label a{
+    color: var(--brand-color);
+    text-decoration: underline;
+
+}
+
+.icon{
     position: absolute;
         top: 50%;
         left: 16px;
-}
-.icon{
-
-    fill:var(--headers-color);
+            fill: var(--headers-color);
 }
 
-.form-field input:hover{
-    border: 1px solid var(--brand-color);
-    fill: var(--action-color);
+.form-field:focus-within> .icon {
+   fill:var(--action-color);
 }
 
+.form-field:focus-within>.form-input{
+ 
+}
 
 
 
@@ -534,6 +546,8 @@ a{
 .socialmedia .section-sub-title{
     color: #fff;
     margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .footer-link {
@@ -553,6 +567,50 @@ a{
 .footer-link:hover, .footer-link:focus{
     background-color: #31D0AA;
 }
+
+.follow{
+    margin-left: 80px;
+}
+
+.follow-text{
+    color: #fff;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.follow-case{
+    display: flex;
+    align-items: center;
+}
+
+.follow-input{
+    width: 264px;
+    min-height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius:  4px;
+    background-color: transparent;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+.follow .order{
+    display: flex;
+    width: 165px;
+    margin-left: 24px;
+    padding:8px 24px;
+}
+
+.follow .text-order {
+    margin-right: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
 
 
 

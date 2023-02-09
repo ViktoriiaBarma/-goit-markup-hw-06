@@ -384,12 +384,14 @@ a{
     fill: var(--brand-color);
 }
 
-.form-field:focus-within .form-input:not(:placeholder-shown){
+.form-field:focus-within .form-input{
+    outline: none;
     border: 1px solid var(--brand-color);
         border-radius: 4px;
 }
 
-.form-field:focus-within .form-textarea:not(:placeholder-shown) {
+.form-field:focus-within .form-textarea{
+    outline: none;
     border: 1px solid var(--brand-color);
     border-radius: 4px;
 }

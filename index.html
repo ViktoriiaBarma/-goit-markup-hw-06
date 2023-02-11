@@ -410,24 +410,20 @@
         <form class="follow">
           <p class="follow-text">Subscribe</p>
           <div class="follow-case">
-            <label>
-              <input
-                type="email"
-                name="mail"
-                class="follow-input"
-                placeholder="Email"
-              />
-            </label>
-            <buttun type="submit" class="order"
-              ><span class="text-order">Subscribe</span>
-              <img
-                src="./images/plane.svg"
-                alt="plane"
-                class="icon-plane"
-                width="24"
-                height="24"
-              />
-            </buttun>
+            <label for="email"></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="follow-input"
+              placeholder="Email"
+            />
+            <button type="submit" class="order">
+              <span class="text-order">Subscribe</span>
+              <svg class="icon-plane" width="24" height="24">
+                <use href="./images/sprite.svg#icon-plane"></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
